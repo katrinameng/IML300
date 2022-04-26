@@ -3,12 +3,16 @@ body {
     background-size: 100vh;
     margin: 50px;
     cursor: url("asset/key.png"), auto;
+    height: 100%;
 
+}
+
+html {
+    height: 100%;
 }
 
 body.index {
     background-image: url("asset/background3.gif");
-
 
 }
 
@@ -32,7 +36,7 @@ body.door3 {
 }
 
 body.door4 {
-    background-image: url("asset/background4.gif");
+    background-image: url("asset/background5.gif");
     background-size: 100%;
 }
 
@@ -102,6 +106,19 @@ body.door4 {
     left: 800px;
     top: 400px;
     position: absolute;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin{
+    0%{
+        rotation: 0deg;
+    }
+    50%{
+        rotation: 20deg;
+    }
+    100%{
+        rotation:-20deg;
+    }
 }
 
 .bed {
@@ -164,6 +181,10 @@ body.door4 {
     position: absolute;
 }
 
+.bear:hover {
+    transform: scale(1.1);
+}
+
 .stand {
     height: 40vh;
     left: 1350px;
@@ -176,6 +197,10 @@ body.door4 {
     left: 1400px;
     top: 500px;
     position: absolute;
+}
+
+.radio:hover{
+    transform: scale(1.1);
 }
 
 .cup {
@@ -217,7 +242,8 @@ audio {
 
 .euphoria {
     display: none;
-    opacity: 80;
+    opacity: 80%;
+    height: 80vh;
 }
 
 /*cited from https://www.youtube.com/watch?v=ti2gMn6U0Ts&ab_channel=EasyTutorials */
