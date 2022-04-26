@@ -6,4 +6,9 @@ $('document').ready(function () {
      $('.cup').hover(function () {
         $('.quote').toggle();
     });
+    
+    $(function () {
+        $('.pixel').draggable();
+    });
+
 });
