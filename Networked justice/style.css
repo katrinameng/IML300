@@ -1,281 +1,297 @@
-body{
-    font-family:monospace;
-    background-size:100vh;
-    margin:50px;
-         cursor: url("asset/hand.png"),auto;
+body {
+    font-family: monospace;
+    background-size: 100vh;
+    margin: 50px;
+    cursor: url("asset/key.png"), auto;
 
 }
 
-body.index{
-        background-image: url("asset/background3.gif");
-         cursor: url("asset/hand.png"),auto;
+body.index {
+    background-image: url("asset/background3.gif");
+
 
 }
 
-body.door1{
-        background-image: url("asset/wallpaper.jpeg");
-         cursor: url("asset/hand.png"),auto;
+body.door1 {
+    background-image: url("asset/wallpaper.jpeg");
+    cursor: url("asset/hand.png"), auto;
 }
 
-body.door2{
-        background-image: url("asset/bubbles.gif");
+body.door2 {
+    background-image: url("asset/bubbles.gif");
     background-size: 27%;
-         cursor: url("asset/hand.png"),auto;
+    cursor: url("asset/hand.png"), auto;
 
 }
 
-body.door3{
-        background-image: url("asset/meadow.png");
-        background-size: 100%;
-         cursor: url("asset/hand.png"),auto;
+body.door3 {
+    background-image: url("asset/meadow.png");
+    background-size: 100%;
+    cursor: url("asset/hand.png"), auto;
 
 }
 
-body.door5{
-        background-image: url("asset/background4.gif");
-        background-size: 100%;
+body.door4 {
+    background-image: url("asset/background4.gif");
+    background-size: 100%;
 }
 
-.door{
-    height:30vw;
-    margin: 100px;
+.door {
+    height: 60vh;
+    margin: 180px;
     margin-bottom: 50px;
     margin-top: 50px;
-    cursor: url("asset/key.png"),auto;
+    cursor: url("asset/key.png"), auto;
 }
 
 
 .door:hover {
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 
-.lamp1{
-    left: 600px; 
-    top: 50px; 
+.lamp1 {
+    left: 600px;
+    top: 50px;
     position: absolute;
-    height:60vh;
+    height: 60vh;
 }
 
-.lamp2{
-    left: 1400px; 
-    top: 50px; 
+.lamp2 {
+    left: 1400px;
+    top: 50px;
     position: absolute;
-    height:60vh;
+    height: 60vh;
 }
 
-.movie{
-    left: 60px; 
-    top: 370px; 
+.movie {
+    left: 60px;
+    top: 370px;
     position: absolute;
-    height:21.5vh;
+    height: 21.5vh;
 }
 
-.tv{
-    left: 30px; 
-    top: 340px; 
+.tv {
+    left: 30px;
+    top: 340px;
     position: absolute;
-    height:30vh;
+    height: 30vh;
 }
 
 
-.decor{
-   height:35vh; 
-    left: 430px; 
-    top: 290px; 
+.decor {
+    height: 35vh;
+    left: 430px;
+    top: 290px;
     position: absolute;
 }
 
 .decor:hover {
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
 
-.furniture{
-      height:60vh; 
-    left: 650px; 
-    top: 400px; 
+.furniture {
+    height: 60vh;
+    left: 650px;
+    top: 400px;
     position: absolute;
 }
 
-.chair{
-      height:60vh; 
-    left: 800px; 
-    top: 400px; 
+.chair {
+    height: 60vh;
+    left: 800px;
+    top: 400px;
     position: absolute;
 }
 
-.bed{
-      height:60vh; 
-    left: 280px; 
-    top: 400px; 
+.bed {
+    height: 60vh;
+    left: 280px;
+    top: 400px;
     position: absolute;
 }
 
-.curtain{
-      height:98vh; 
-    left:450px; 
-    top: 0px; 
+.curtain {
+    height: 98vh;
+    left: 450px;
+    top: 0px;
     position: absolute;
 }
 
-.table{
-     height:40vh; 
-    left: 20px; 
-    top: 600px; 
-    position: absolute;
-}
-
-
-.van{
-     height:95vh; 
-    left: 1030px; 
-    top: 130px; 
-    position: absolute;
-}
-
-.vid{
-    height:27vh;
-    left:1190px;
-    top:305px;
-    position: absolute;
-    
-}
-
-
-.pet{
-     height:20vh; 
-    left: 0px; 
-    top: 800px; 
-    position: absolute;
-}
-
-.yarn{
-     height:27vh; 
-    left: 550px; 
-    top: 700px; 
+.table {
+    height: 40vh;
+    left: 20px;
+    top: 600px;
     position: absolute;
 }
 
 
-.bear{
-     height:18vh; 
-    left: 380px; 
-    top: 600px; 
+.van {
+    height: 95vh;
+    left: 1030px;
+    top: 130px;
     position: absolute;
 }
 
-.stand{
-     height:40vh; 
-    left: 1350px; 
-    top: 630px; 
+.vid {
+    height: 27vh;
+    left: 1190px;
+    top: 305px;
+    position: absolute;
+
+}
+
+
+.pet {
+    height: 20vh;
+    left: 0px;
+    top: 800px;
     position: absolute;
 }
 
-.radio{
-     height:20vh; 
-    left: 1400px; 
-    top: 500px; 
+.yarn {
+    height: 27vh;
+    left: 550px;
+    top: 700px;
     position: absolute;
 }
 
-.cup{
-     height:8vh; 
-    left: 1450px; 
-    top: 660px; 
+
+.bear {
+    height: 18vh;
+    left: 380px;
+    top: 600px;
     position: absolute;
 }
 
-.flower{
-     height:30vh; 
-    left: 20px; 
-    top: 700px; 
+.stand {
+    height: 40vh;
+    left: 1350px;
+    top: 630px;
     position: absolute;
 }
 
-audio { display:none;}
+.radio {
+    height: 20vh;
+    left: 1400px;
+    top: 500px;
+    position: absolute;
+}
 
-.title{
-    font-weight:bold;
-    font-size:110px;
-    margin:40px;
+.cup {
+    height: 8vh;
+    left: 1450px;
+    top: 660px;
+    position: absolute;
+}
+
+.flower {
+    height: 30vh;
+    left: 20px;
+    top: 700px;
+    position: absolute;
+}
+
+audio {
+    display: none;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 110px;
+    margin: 40px;
     text-align: center;
     cursor: pointer;
 }
 
-.proj{
-    height:10vh;
+.proj {
+    height: 10vh;
     left: 50px;
     top: 900px;
-    position:absolute
+    position: absolute
 }
 
 .proj:hover {
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
 
-.euphoria{
+.euphoria {
     display: none;
-    opacity:80;
+    opacity: 80;
 }
 
 /*cited from https://www.youtube.com/watch?v=ti2gMn6U0Ts&ab_channel=EasyTutorials */
 
-span{
- display:   inline-block;
-    font-weight:bolder;
+span {
+    display: inline-block;
+    font-weight: bolder;
     animation: mover 3s linear infinite;
-    color:#fff;
+    color: #fff;
 }
 
-@keyframes mover{
-    0%{
-        text-shadow:0 0 30px rgba(255,0,0,0);
+@keyframes mover {
+    0% {
+        text-shadow: 0 0 30px rgba(255, 0, 0, 0);
     }
-     50%{
-        text-shadow:0 0 30px rgba(255,0,0,1.2);
-         transform: translateY(30px);
+
+    50% {
+        text-shadow: 0 0 30px rgba(255, 0, 0, 1.2);
+        transform: translateY(30px);
     }
-     100%{
-        text-shadow:0 0 30px rgba(255,0,0,0);
+
+    100% {
+        text-shadow: 0 0 30px rgba(255, 0, 0, 0);
     }
 }
 
-span:nth-child(1){
-    animation-delay:-6.5s;
+span:nth-child(1) {
+    animation-delay: -6.5s;
 }
-span:nth-child(2){
-    animation-delay:-6s;
+
+span:nth-child(2) {
+    animation-delay: -6s;
 }
-span:nth-child(3){
-    animation-delay:-5.5s;
+
+span:nth-child(3) {
+    animation-delay: -5.5s;
 }
-span:nth-child(4){
-    animation-delay:-5s;
+
+span:nth-child(4) {
+    animation-delay: -5s;
 }
-span:nth-child(5){
-    animation-delay:-4.5s;
+
+span:nth-child(5) {
+    animation-delay: -4.5s;
 }
-span:nth-child(6){
-    animation-delay:-4s;
+
+span:nth-child(6) {
+    animation-delay: -4s;
 }
-span:nth-child(7){
-    animation-delay:-3.5s;
+
+span:nth-child(7) {
+    animation-delay: -3.5s;
 }
-span:nth-child(8){
-    animation-delay:-3s;
+
+span:nth-child(8) {
+    animation-delay: -3s;
 }
-span:nth-child(9){
-    animation-delay:-2.5s;
+
+span:nth-child(9) {
+    animation-delay: -2.5s;
 }
-span:nth-child(10){
-    animation-delay:-2s;
+
+span:nth-child(10) {
+    animation-delay: -2s;
 }
-span:nth-child(11){
-    animation-delay:-1.5s;
+
+span:nth-child(11) {
+    animation-delay: -1.5s;
 }
-span:nth-child(12){
-    animation-delay:-1s;
+
+span:nth-child(12) {
+    animation-delay: -1s;
 }
-span:nth-child(13){
-    animation-delay:-.5s;
+
+span:nth-child(13) {
+    animation-delay: -.5s;
 }
