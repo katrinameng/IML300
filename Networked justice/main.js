@@ -40,7 +40,7 @@ $('document').ready(function () {
     });
     
     
-     $('.curtain').click(function () {
+     $('.bed').click(function () {
         $('.text4').toggle();
     });
     
@@ -51,4 +51,22 @@ $('document').ready(function () {
     $('.van').click(function () {
         $('.text5').toggle();
     });
+    
+      $(function () {
+        $('.text6').draggable();
+    });
+    
+    
+    $('.yarn').click(function () {
+        $('.text6').toggle();
+    });
+    
+     $(function () {
+        $('.text7').draggable();
+    });
+    
+    $('.flower').click(function () {
+        $('.text7').toggle();
+    });
+    
 });

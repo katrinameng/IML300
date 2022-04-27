@@ -350,6 +350,41 @@ audio {
 
 }
 
+
+
+.text6{
+       font-size: 20px;
+    color:white;
+    padding: 10px;
+    background-color: rgba(130,20,150,0.3);
+    top: 5%;
+    left: 10%;
+    width:70vw;
+        border: 10px;
+    display:none;
+
+}
+
+.text7{
+       font-size: 20px;
+    color:white;
+    padding: 10px;
+    background-color: rgba(200,50,200,0.3);
+    top: 5%;
+    left: 10%;
+    width:70vw;
+        border: 10px;
+    display:none;
+
+}
+
+#bgtext{
+   margin-left: 20%;
+    color: black;
+    background: rgba(0,255,0,0.5);
+    font-size: 24px;
+}
+
 /*cited from https://www.youtube.com/watch?v=ti2gMn6U0Ts&ab_channel=EasyTutorials */
 
 span {
