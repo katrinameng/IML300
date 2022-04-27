@@ -4,13 +4,20 @@
     <title>Networked Justice</title>
 
     <link rel="stylesheet" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="main.js"></script>
 </head>
 
 <body class="door4">
     <img class="euphoria" src="asset/euphoria.gif">
+    <audio controls id="song2">
+      <source src="asset/song2.mp3" type="audio/mpeg">
+  </audio>
+
+  <a onclick="document.getElementById('song2').play();">
     <img class="proj" src="asset/projector.png">
+    </a>
            <img class="pixel" src="asset/pixel1.png">
            <img class="pixel" src="asset/pixel2.png">
            <img class="pixel" src="asset/pixel3.png">
@@ -21,18 +28,5 @@
             <img class="pixel" src="asset/pixel8.gif">
            <img class="pixel" src="asset/pixel9.png">
 
-
-
-        <!--
-   
-       <audio controls id="song2">
-      <source src="asset/song2.mp3" type="audio/mpeg">
-  </audio>
-
-  <a onclick="document.getElementById('song2').play();">
-      <img class="door" src="asset/blueDoor.png">
-
-  </a>
--->
 
 </body></html>

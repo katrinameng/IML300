@@ -19,6 +19,17 @@ body.index {
 body.door1 {
     background-image: url("asset/wallpaper.jpeg");
     cursor: url("asset/hand.png"), auto;
+    animation: dim 3s linear infinite;
+}
+
+@keyframes dim{
+    0%{
+        opacity: 100%
+    }
+    50% {opacity: 70%
+    }100%{
+        opacity: 100%
+    }
 }
 
 body.door2 {
@@ -38,6 +49,7 @@ body.door3 {
 body.door4 {
     background-image: url("asset/background5.gif");
     background-size: 100%;
+    cursor: pointer;
 }
 
 .door {
@@ -60,6 +72,7 @@ body.door4 {
     position: absolute;
     height: 60vh;
 }
+
 
 .lamp2 {
     left: 1400px;
@@ -115,7 +128,7 @@ body.door4 {
 
 @keyframes spin{
     0%{
-        trandform:rotate(0deg);
+        transform:rotate(0deg);
     }
     50%{
         transform:rotate(20deg);
@@ -263,6 +276,78 @@ audio {
     color:plum;
     margin: 100px;
     text-shadow: 0 0 30px rgb(255, 255,255);
+}
+
+.pixel {
+    height: 15%;
+    margin: 50px;
+    margin-bottom: 50px;
+}
+
+.text1{
+       font-size: 20px;
+        padding: 10px;
+
+    background-color: white;
+    top: 5%;
+    left: 10%;
+    width:60vw;
+        border: 3px solid black;
+    display:none;
+
+}
+
+.text2{
+       font-size: 20px;
+        padding: 10px;
+
+    background-color: white;
+    top: 5%;
+    left: 10%;
+    width:30vw;
+        border: 3px solid black;
+    display:none;
+
+}
+
+
+.text3{
+       font-size: 20px;
+    color:white;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.3);
+    top: 5%;
+    left: 10%;
+    width:40vw;
+        border: rounded;
+    display:none;
+
+}
+
+.text4{
+       font-size: 20px;
+    color:white;
+    padding: 10px;
+    background-color: rgba(255,0,0,0.3);
+    top: 5%;
+    left: 10%;
+    width:40vw;
+        border: rounded;
+    display:none;
+
+}
+
+.text5{
+       font-size: 20px;
+    color:white;
+    padding: 10px;
+    background-color: mediumpurple, opacity=0.3;
+    top: 5%;
+    left: 10%;
+    width:40vw;
+        border: rounded;
+    display:none;
+
 }
 
 /*cited from https://www.youtube.com/watch?v=ti2gMn6U0Ts&ab_channel=EasyTutorials */
