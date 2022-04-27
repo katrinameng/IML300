@@ -2,71 +2,71 @@ $('document').ready(function () {
     $('.proj').hover(function () {
         $('.euphoria').toggle();
     });
-    
-     $('.cup').hover(function () {
+
+    $('.cup').hover(function () {
         $('.quote').toggle();
     });
-    
+
     $(function () {
         $('.pixel').draggable();
     });
-    
-     $(function () {
+
+    $(function () {
         $('.text1').draggable();
     });
-    
-     $(function () {
+
+    $(function () {
         $('.text2').draggable();
     });
-    
- $('.lamp1').click(function () {
+
+    $('.lamp1').click(function () {
         $('.text1').toggle();
     });
-    
-     $('.lamp2').click(function () {
+
+    $('.lamp2').click(function () {
         $('.text2').toggle();
     });
-    
-      $(function () {
+
+    $(function () {
         $('.text3').draggable();
     });
-    
-      $(function () {
+
+    $(function () {
         $('.text4').draggable();
     });
-      
-     $('.pet').click(function () {
+
+    $('.pet').click(function () {
         $('.text3').toggle();
     });
-    
-    
-     $('.bed').click(function () {
+
+
+    $('.bed').click(function () {
         $('.text4').toggle();
     });
-    
-     $(function () {
+
+    $(function () {
         $('.text5').draggable();
     });
-    
+
     $('.van').click(function () {
         $('.text5').toggle();
     });
-    
-      $(function () {
+
+    $(function () {
         $('.text6').draggable();
     });
-    
-    
+
+
     $('.yarn').click(function () {
         $('.text6').toggle();
     });
-    
-     $(function () {
+
+    $(function () {
         $('.text7').draggable();
     });
-    
+
     $('.flower').click(function () {
         $('.text7').toggle();
     });
-    
+
 });
