@@ -22,12 +22,16 @@ body.door1 {
     animation: dim 3s linear infinite;
 }
 
-@keyframes dim{
-    0%{
+@keyframes dim {
+    0% {
         opacity: 100%
     }
-    50% {opacity: 70%
-    }100%{
+
+    50% {
+        opacity: 70%
+    }
+
+    100% {
         opacity: 100%
     }
 }
@@ -121,23 +125,26 @@ body.door4 {
     position: absolute;
 }
 
-.chair:hover{
-        animation: spin 3s linear infinite;
+.chair:hover {
+    animation: spin 3s linear infinite;
 
 }
 
-@keyframes spin{
-    0%{
-        transform:rotate(0deg);
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
     }
-    50%{
-        transform:rotate(20deg);
+
+    50% {
+        transform: rotate(20deg);
     }
-    90%{
-        transform:rotate(-5deg);
+
+    90% {
+        transform: rotate(-5deg);
     }
-    100%{
-        transform:rotate(0deg);
+
+    100% {
+        transform: rotate(0deg);
     }
 }
 
@@ -219,7 +226,7 @@ body.door4 {
     position: absolute;
 }
 
-.radio:hover{
+.radio:hover {
     transform: scale(1.1);
 }
 
@@ -230,7 +237,7 @@ body.door4 {
     position: absolute;
 }
 
-.cup:hover{
+.cup:hover {
     transform: scale(1.1);
 }
 
@@ -270,12 +277,12 @@ audio {
     height: 80vh;
 }
 
-.quote{
-    display:none;
-    font-size:25px;
-    color:plum;
+.quote {
+    display: none;
+    font-size: 25px;
+    color: plum;
     margin: 100px;
-    text-shadow: 0 0 30px rgb(255, 255,255);
+    text-shadow: 0 0 30px rgb(255, 255, 255);
 }
 
 .pixel {
@@ -284,104 +291,103 @@ audio {
     margin-bottom: 50px;
 }
 
-.text1{
-       font-size: 20px;
-        padding: 10px;
+.text1 {
+    font-size: 20px;
+    padding: 10px;
 
     background-color: white;
     top: 5%;
     left: 10%;
-    width:60vw;
-        border: 3px solid black;
-    display:none;
+    width: 60vw;
+    border: 3px solid black;
+    display: none;
 
 }
 
-.text2{
-       font-size: 20px;
-        padding: 10px;
+.text2 {
+    font-size: 20px;
+    padding: 10px;
 
     background-color: white;
     top: 5%;
     left: 10%;
-    width:30vw;
-        border: 3px solid black;
-    display:none;
+    width: 30vw;
+    border: 3px solid black;
+    display: none;
 
 }
 
 
-.text3{
-       font-size: 20px;
-    color:white;
+.text3 {
+    font-size: 20px;
+    color: white;
     padding: 10px;
-    background-color: rgba(255,255,255,0.3);
+    background-color: rgba(255, 255, 255, 0.3);
     top: 5%;
     left: 10%;
-    width:40vw;
-        border: rounded;
-    display:none;
+    width: 40vw;
+    border: rounded;
+    display: none;
 
 }
 
-.text4{
-       font-size: 20px;
-    color:white;
+.text4 {
+    font-size: 20px;
+    color: white;
     padding: 10px;
-    background-color: rgba(255,0,0,0.3);
+    background-color: rgba(255, 0, 0, 0.3);
     top: 5%;
     left: 10%;
-    width:40vw;
-        border: rounded;
-    display:none;
+    width: 40vw;
+    border: rounded;
+    display: none;
 
 }
 
-.text5{
-       font-size: 20px;
-    color:white;
+.text5 {
+    font-size: 20px;
+    color: white;
     padding: 10px;
     background-color: mediumpurple, opacity=0.3;
     top: 5%;
     left: 10%;
-    width:40vw;
-        border: rounded;
-    display:none;
+    width: 40vw;
+    border: rounded;
+    display: none;
 
 }
 
 
 
-.text6{
-       font-size: 20px;
-    color:white;
+.text6 {
+    font-size: 20px;
+    color: white;
     padding: 10px;
-    background-color: rgba(130,20,150,0.3);
+    background-color: rgba(130, 20, 150, 0.3);
     top: 5%;
     left: 10%;
-    width:70vw;
-        border: 10px;
-    display:none;
+    width: 70vw;
+    border: 10px;
+    display: none;
 
 }
 
-.text7{
-       font-size: 20px;
-    color:white;
+.text7 {
+    font-size: 20px;
+    color: white;
     padding: 10px;
-    background-color: rgba(200,50,200,0.3);
+    background-color: rgba(200, 50, 200, 0.3);
     top: 5%;
     left: 10%;
-    width:70vw;
-        border: 10px;
-    display:none;
+    width: 70vw;
+    border: 10px;
+    display: none;
 
 }
 
-#bgtext{
-   margin-left: 20%;
+#bgtext {
+    margin-left: 20%;
     color: black;
-    background: rgba(0,255,0,0.5);
     font-size: 24px;
 }
 
