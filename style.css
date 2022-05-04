@@ -1,4 +1,47 @@
+body{
+    background: url("asset/background.gif");
+    background-size:100vw;
+    font-family: monospace;
+    color: blue;
+    text-shadow: 0 0 10px skyblue;
+    font-size: 20px;
+    margin: 150px;
+  cursor: url("asset/01-1%20(dragged).png"), auto;
+  animation: cursor 1s infinite;
+}
 
+
+@keyframes cursor {
+ 0% {cursor: url("asset/011.gif"), auto;}
+  25% {cursor: url("asset/012.gif"), auto;}
+  50% {cursor: url("asset/013.gif"), auto;}
+  75% {cursor: url("asset/014.gif"), auto;}
+     100% {cursor: url("asset/011.gif"), auto;}
+
+}   
+   
+h1{
+        color: yellowgreen;
+        text-shadow: 0 0 10px yellow;
+    font-family: sans-serif
+
+
+}
+
+#song2{
+    display:none
+}
+
+#pic{
+    width:100px;
+    left:1450px;
+    position: absolute;
+    top:90px;
+}
+
+#pic:hover {
+    transform: scale(1.2);
+}
    
 iframe {
   width: 800px;
@@ -15,7 +58,24 @@ iframe {
   height: 800px;
 }
 
+#sketch3 {
+  width: 800px;
+  height: 840px;
+}
 
+a:link{
+  color: goldenrod;
+  text-decoration: underline;
+}
+
+a:visited{
+  color: brown;
+  text-decoration: line-through;
+}
+
+a:hover{
+  color: hotpink;
+}
 
 .grid-container {
   display: grid;
